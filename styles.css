@@ -53,6 +53,10 @@ a {
   color: inherit;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 .hero-container {
   min-height: 50dvh;
   display: flex;
@@ -187,4 +191,13 @@ a {
 
 .btn.white {
   border: 3px solid #f9faf8;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 25px;
+  text-align: center;
 }
