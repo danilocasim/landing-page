@@ -80,7 +80,7 @@ a {
   color: #f9faf8;
   font-weight: 700;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 10px 30px;
   border-radius: 8px;
 }
 
@@ -160,4 +160,31 @@ a {
   font-size: 24px;
   align-self: flex-end;
   margin-right: 5%;
+  margin-top: 3%;
+}
+
+/* Signup Section */
+
+.signup-section {
+  min-height: 30dvh;
+  display: flex;
+  align-items: center;
+}
+
+.signup-section .container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100%;
+  padding: 40px 50px;
+  border-radius: 10px;
+}
+
+.signup-info h4 {
+  font-size: 24px;
+}
+
+.btn.white {
+  border: 3px solid #f9faf8;
 }
