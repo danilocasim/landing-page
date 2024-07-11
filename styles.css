@@ -130,3 +130,34 @@ a {
   width: 100%;
   border-radius: 10px;
 }
+
+/* Testimonial Section */
+
+.testimonial-section {
+  min-height: 50dvh;
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+.testimonial-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.testimonial-section p {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-section em {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.testimonial-section strong {
+  font-size: 24px;
+  align-self: flex-end;
+  margin-right: 5%;
+}
