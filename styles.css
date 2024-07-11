@@ -43,7 +43,7 @@ nav .logo {
 nav ul {
   list-style-type: none;
   display: flex;
-  gap: 24px;
+  gap: 48px;
   font-size: 18px;
   color: #e5e7eb;
 }
